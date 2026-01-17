@@ -1,0 +1,313 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.0">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1431" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個DataFrame" vertex="1">
+          <mxGeometry height="60" width="100" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="90" y="220" />
+            </Array>
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="100" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="顯示該DataFrame所有的index" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="顯示該DataFrame所有的column" vertex="1">
+          <mxGeometry height="50" width="100" x="160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="顯示該DataFrame特定之index name之value" vertex="1">
+          <mxGeometry height="50" width="100" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame特定之各column值之相加" vertex="1">
+          <mxGeometry height="50" width="100" x="400" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame特定之各column值之平均值" vertex="1">
+          <mxGeometry height="50" width="100" x="520" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame特定之各column值之標準差" vertex="1">
+          <mxGeometry height="50" width="100" x="640" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame各元素之匿名函數值" vertex="1">
+          <mxGeometry height="50" width="100" x="760" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="建立時間序列之index" vertex="1">
+          <mxGeometry height="50" width="100" x="880" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-10" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="將DataFrame轉成numpy array" vertex="1">
+          <mxGeometry height="50" width="100" x="1000" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="210" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-12" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="330" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-13" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="450" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-14" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-15" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="690" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-16" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="810" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-17" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="930" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-18" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="220" />
+              <mxPoint x="1050" y="220" />
+            </Array>
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-19" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=25;" value="" vertex="1">
+          <mxGeometry height="230" width="1100" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-20" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="DataFrame" vertex="1">
+          <mxGeometry height="30" width="80" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-21" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個DataFrame" vertex="1">
+          <mxGeometry height="60" width="100" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-22" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="顯示該DataFrame之後設資料" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-23" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame實用之統計數據" vertex="1">
+          <mxGeometry height="50" width="100" x="160" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-24" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame個方向之平均值" vertex="1">
+          <mxGeometry height="50" width="100" x="280" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-25" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="490" as="sourcePoint" />
+            <mxPoint x="590" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-26" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="480" />
+              <mxPoint x="90" y="480" />
+            </Array>
+            <mxPoint x="540" y="490" as="sourcePoint" />
+            <mxPoint x="590" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-27" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="480" />
+              <mxPoint x="330" y="480" />
+            </Array>
+            <mxPoint x="540" y="490" as="sourcePoint" />
+            <mxPoint x="590" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-28" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=25;" value="" vertex="1">
+          <mxGeometry height="200" width="500" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-29" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Basic Analytics" vertex="1">
+          <mxGeometry height="30" width="100" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-30" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="計算該DataFrame取log等運算" vertex="1">
+          <mxGeometry height="50" width="100" x="400" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-31" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="480" />
+              <mxPoint x="450" y="480" />
+            </Array>
+            <mxPoint x="540" y="490" as="sourcePoint" />
+            <mxPoint x="590" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-32" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個DataFrame" vertex="1">
+          <mxGeometry height="60" width="100" x="580" y="402.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-33" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="進行資料可視化" vertex="1">
+          <mxGeometry height="45" width="100" x="580" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-34" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-32" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="492.5" as="sourcePoint" />
+            <mxPoint x="480" y="442.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-35" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=25;" value="" vertex="1">
+          <mxGeometry height="200" width="140" x="560" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-36" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Basic Visualization" vertex="1">
+          <mxGeometry height="30" width="120" x="560" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-37" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個Series" vertex="1">
+          <mxGeometry height="60" width="100" x="750" y="402.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-38" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=25;" value="" vertex="1">
+          <mxGeometry height="100" width="140" x="730" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-39" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Series" vertex="1">
+          <mxGeometry height="30" width="60" x="730" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-40" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個DataFrame" vertex="1">
+          <mxGeometry height="60" width="100" x="920" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-41" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="將資料進行樞紐分析" vertex="1">
+          <mxGeometry height="40" width="80" x="930" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-42" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-40" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="940" y="490" as="sourcePoint" />
+            <mxPoint x="990" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-43" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=25;" value="" vertex="1">
+          <mxGeometry height="190" width="120" x="910" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-44" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Group by operation" vertex="1">
+          <mxGeometry height="30" width="130" x="905" y="372.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-45" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個DataFrame" vertex="1">
+          <mxGeometry height="60" width="100" x="110" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-46" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="顯示前五列與後五列之Data" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-47" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="邏輯篩選" vertex="1">
+          <mxGeometry height="50" width="100" x="180" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-48" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-45" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="730" />
+              <mxPoint x="230" y="730" />
+            </Array>
+            <mxPoint x="390" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-49" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-45" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="730" />
+              <mxPoint x="90" y="730" />
+            </Array>
+            <mxPoint x="390" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-50" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;opacity=25;" value="" vertex="1">
+          <mxGeometry height="210" width="280" x="20" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-51" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Complex Selection" vertex="1">
+          <mxGeometry height="30" width="120" x="20" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-53" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="建立一個DataFrame" vertex="1">
+          <mxGeometry height="60" width="100" x="480" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-54" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="往下串接資料" vertex="1">
+          <mxGeometry height="40" width="100" x="360" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-55" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="連結資料" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-56" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="融合資料" vertex="1">
+          <mxGeometry height="40" width="100" x="600" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-57" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-53" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="745" as="sourcePoint" />
+            <mxPoint x="420" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-58" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-53" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-54" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="735" />
+              <mxPoint x="410" y="735" />
+            </Array>
+            <mxPoint x="370" y="745" as="sourcePoint" />
+            <mxPoint x="420" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-59" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nr5yryQoR_f6L6Aytpwp-53" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nr5yryQoR_f6L6Aytpwp-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="735" />
+              <mxPoint x="650" y="735" />
+            </Array>
+            <mxPoint x="370" y="745" as="sourcePoint" />
+            <mxPoint x="420" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-60" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;opacity=25;" value="" vertex="1">
+          <mxGeometry height="210" width="380" x="340" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="nr5yryQoR_f6L6Aytpwp-61" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Concatenation, Join and Merge" vertex="1">
+          <mxGeometry height="30" width="190" x="340" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
